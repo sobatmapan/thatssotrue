@@ -1,693 +1,209 @@
+
 <!doctype html>
-<html lang="th">
+<html lang="id">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="ThailandData Store: บล็อกสไตล์ Blogger 2.0 สำหรับรวมลิงก์ข้อมูล จัดเป็นโพสต์ อ่านง่าย โหลดเร็ว" />
-  <title>ThailandData Store | บล็อกลิงก์ข้อมูล (Blogger 2.0)</title>
+  
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Domain baru -->
-  <link rel="canonical" href="https://thailanddata.store/" />
-  <meta name="google-site-verification" content="vCKi-MB9iWmbXzsX4G7E-aI-jvOHrdf6uojJT8iLSIs" />
-  <meta name="google-site-verification" content="HBG7SaS-DmFFiYnfI-vT2LOdw3gM2AK3wbmnixc4zR8" />
-<meta name="google-site-verification" content="-WyOitDwD9yMusMrjAzZEWGR2NHw8xT9JZ24lErDj0E" />
-  <!-- Open Graph -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="ThailandData Store | บล็อกลิงก์ข้อมูล (Blogger 2.0)" />
-  <meta property="og:description" content="หน้าแบบบล็อก (Blogger 2.0) จัดโพสต์เป็นหมวด อ่านง่าย โหลดเร็ว เหมาะกับ GitHub Pages" />
-  <meta property="og:url" content="https://thailanddata.store/" />
+<title>Social Distortion Magazine | Perjalanan Band Punk Rock Legendaris</title>
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" sizes="32x32" href="okey.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="okey.png">
-  <link rel="apple-touch-icon" href="okey.png">
+<meta name="description" content="Majalah digital modern yang membahas perjalanan Social Distortion, sejarah punk rock California, album legendaris, serta pengaruh besar mereka dalam budaya musik underground dunia.">
 
-  <meta name="twitter:card" content="summary" />
+<meta name="robots" content="index, follow, max-image-preview:large">
 
-  <!-- Simple schema -->
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"Blog",
-    "name":"ThailandData Store",
-    "url":"https://thailanddata.store/",
-    "inLanguage":"th",
-    "description":"บล็อกสไตล์ Blogger 2.0 สำหรับรวมลิงก์ข้อมูล จัดเป็นโพสต์ อ่านง่าย โหลดเร็ว"
-  }
-  </script>
+<link rel="canonical" href="https://thailanddata.store/">
 
-  <style>
-    :root{
-      /* Blogger 2.0 vibe: header gradient, post cards, sidebar widgets */
-      --bg:#eef2f7;
-      --paper:#ffffff;
-      --ink:#152238;
-      --muted:#5c6b82;
+<meta property="og:type" content="website">
 
-      --line:#d8e1ee;
+<meta property="og:title" content="Social Distortion Magazine | Perjalanan Band Punk Rock Legendaris">
 
-      --brand:#2b6cb0;
-      --brand2:#0ea5e9;
-      --accent:#f59e0b;
+<meta property="og:description" content="Artikel majalah digital mengenai perjalanan Social Distortion dari awal kemunculan hingga menjadi salah satu ikon punk rock Amerika dengan tampilan modern dan elegan.">
 
-      --shadow: 0 10px 26px rgba(21,34,56,.10);
-      --shadow2: 0 6px 16px rgba(21,34,56,.08);
+<meta property="og:url" content="https://thailanddata.store/">
 
-      --radius:14px;
-      --max: 1160px;
-    }
+<meta property="og:image" content="cv1.jpg">
 
-    *{box-sizing:border-box}
-    html,body{height:100%}
-    body{
-      margin:0;
-      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Noto Sans Thai", "Helvetica Neue", Arial;
-      color:var(--ink);
-      background:
-        radial-gradient(1000px 420px at 15% -10%, rgba(14,165,233,.16), transparent 60%),
-        radial-gradient(900px 420px at 90% 0%, rgba(245,158,11,.10), transparent 55%),
-        linear-gradient(180deg, #ffffff, var(--bg));
-      line-height:1.8;
-    }
+<meta property="og:site_name" content="Social Distortion Magazine">
 
-    a{color:inherit}
-    a:hover{opacity:.92}
+<meta name="theme-color" content="#1b1b1b">
 
-    .container{width:min(var(--max), calc(100% - 44px)); margin:0 auto;}
+<link rel="icon" type="image/png" sizes="32x32" href="cv1.jpg">
 
-    /* a11y */
-    .skip{
-      position:absolute; left:-999px; top:auto; width:1px; height:1px; overflow:hidden;
-    }
-    .skip:focus{
-      position:fixed; left:14px; top:14px;
-      width:auto; height:auto; padding:10px 12px;
-      background:#fff; border:1px solid var(--line);
-      border-radius:12px; box-shadow:var(--shadow);
-      z-index:9999;
-    }
+<link rel="icon" type="image/png" sizes="192x192" href="cv1.jpg">
 
-    /* Blogger-ish top header */
-    .top{
-      background: linear-gradient(90deg, #0f2f57, var(--brand), var(--brand2));
-      color:#fff;
-      border-bottom: 1px solid rgba(255,255,255,.18);
-    }
-    .top-inner{
-      padding: 18px 0 16px;
-      display:flex;
-      align-items:flex-end;
-      justify-content:space-between;
-      gap:14px;
-      flex-wrap:wrap;
-    }
-    .blog-title{
-      font-weight:1000;
-      letter-spacing:.2px;
-      font-size: clamp(22px, 2.4vw, 34px);
-      line-height:1.15;
-      margin:0;
-    }
-    .blog-tag{
-      margin:6px 0 0;
-      font-size:13px;
-      opacity:.92;
-    }
-    .top-actions{
-      display:flex;
-      gap:10px;
-      flex-wrap:wrap;
-      justify-content:flex-end;
-      align-items:center;
-    }
-    .top-actions a{
-      text-decoration:none;
-      font-size:14px;
-      padding:9px 12px;
-      border-radius: 999px;
-      border:1px solid rgba(255,255,255,.22);
-      background: rgba(255,255,255,.10);
-      white-space:nowrap;
-    }
+<link rel="apple-touch-icon" href="cv1.jpg">
 
-    /* Second nav bar (classic Blogger feel) */
-    .bar{
-      background: rgba(255,255,255,.88);
-      backdrop-filter: blur(10px);
-      border-bottom: 1px solid var(--line);
-      position: sticky;
-      top:0;
-      z-index:50;
-    }
-    .bar-inner{
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:14px;
-      padding: 10px 0;
-    }
-    .menu{
-      display:flex;
-      gap:8px;
-      flex-wrap:wrap;
-    }
-    .menu a{
-      text-decoration:none;
-      font-size:14px;
-      padding:8px 10px;
-      border-radius: 10px;
-      border:1px solid var(--line);
-      background:#fff;
-      box-shadow: var(--shadow2);
-    }
-    .search{
-      display:flex;
-      gap:8px;
-      align-items:center;
-      border:1px solid var(--line);
-      border-radius: 999px;
-      background:#fff;
-      padding: 6px 10px;
-      box-shadow: var(--shadow2);
-      min-width: 240px;
-    }
-    .search input{
-      border:0; outline:0;
-      width:100%;
-      font-size:14px;
-      background:transparent;
-      color:var(--ink);
-    }
-    .search .hint{
-      font-size:12px;
-      color:var(--muted);
-      white-space:nowrap;
-    }
+<meta name="theme-color" content="#af4b0e">
 
-    /* Layout: posts + sidebar (Blogger 2.0) */
-    .wrap{
-      display:grid;
-      grid-template-columns: 1.65fr .85fr;
-      gap: 16px;
-      padding: 16px 0 8px;
-      align-items:start;
-    }
-
-    .post{
-      background: var(--paper);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      overflow:hidden;
-    }
-    .post-head{
-      padding: 14px 16px 10px;
-      border-bottom: 1px solid var(--line);
-      background:
-        radial-gradient(900px 240px at 15% 0%, rgba(14,165,233,.10), transparent 60%),
-        #fff;
-    }
-    .post-title{
-      margin:0;
-      font-size: 20px;
-      letter-spacing: -.2px;
-    }
-    .meta{
-      margin-top: 6px;
-      color: var(--muted);
-      font-size: 13px;
-      display:flex;
-      gap:10px;
-      flex-wrap:wrap;
-      align-items:center;
-    }
-    .tag{
-      display:inline-flex;
-      align-items:center;
-      gap:8px;
-      padding: 4px 10px;
-      border-radius: 999px;
-      border:1px solid var(--line);
-      background:#fff;
-      box-shadow: var(--shadow2);
-    }
-    .post-body{
-      padding: 14px 16px 16px;
-      color: var(--muted);
-    }
-    .post-body p{margin:0 0 10px}
-    .post-body a{
-      text-decoration: underline;
-      text-decoration-color: rgba(14,165,233,.35);
-      text-underline-offset: 3px;
-    }
-    .post-body a:hover{ text-decoration-color: rgba(245,158,11,.35); }
-
-    .callout{
-      margin-top: 12px;
-      padding: 12px 14px;
-      border-radius: 12px;
-      border:1px solid rgba(43,108,176,.18);
-      background: linear-gradient(180deg, rgba(43,108,176,.08), #fff);
-      color: var(--ink);
-      box-shadow: var(--shadow2);
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:12px;
-      flex-wrap:wrap;
-    }
-    .btn{
-      display:inline-flex;
-      align-items:center;
-      justify-content:center;
-      padding: 10px 12px;
-      border-radius: 12px;
-      border:1px solid rgba(43,108,176,.22);
-      background: linear-gradient(180deg, rgba(14,165,233,.14), rgba(255,255,255,.92));
-      text-decoration:none;
-      font-weight: 900;
-      white-space:nowrap;
-    }
-    .btn:active{transform: translateY(1px)}
-
-    /* Sidebar widgets */
-    .widget{
-      background:#fff;
-      border:1px solid var(--line);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      padding: 14px;
-      margin-bottom: 14px;
-    }
-    .widget h3{
-      margin:0 0 10px;
-      font-size: 16px;
-      letter-spacing: -.1px;
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:10px;
-    }
-    .widget small{color:var(--muted)}
-    .quick-links{
-      display:flex;
-      flex-direction:column;
-      gap:10px;
-    }
-    .quick-links a{
-      text-decoration:none;
-      padding:10px 12px;
-      border:1px solid var(--line);
-      border-radius: 12px;
-      box-shadow: var(--shadow2);
-      background:#fff;
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:10px;
-    }
-    .quick-links a span{
-      color:var(--muted);
-      font-size:12px;
-      white-space:nowrap;
-    }
-
-    /* Directory list as "archive" style */
-    .archive{
-      list-style:none;
-      margin:0;
-      padding:0;
-      display:flex;
-      flex-direction:column;
-      gap:10px;
-    }
-    .archive a{
-      text-decoration:none;
-      padding:10px 12px;
-      border-radius: 12px;
-      border:1px solid var(--line);
-      background:#fff;
-      box-shadow: var(--shadow2);
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:10px;
-    }
-    .archive em{
-      font-style:normal;
-      color:var(--muted);
-      font-size:12px;
-      white-space:nowrap;
-    }
-
-    /* Footer */
-    .footer{
-      margin-top: 16px;
-      padding: 18px 0 34px;
-      border-top: 1px solid var(--line);
-      background: rgba(255,255,255,.70);
-    }
-    .footer-grid{
-      display:grid;
-      grid-template-columns: 1.2fr .8fr .6fr;
-      gap: 12px;
-      align-items:start;
-    }
-    .footer-links{
-      display:flex;
-      flex-direction:column;
-      gap:8px;
-    }
-    .footer-links a{
-      text-decoration:none;
-      padding:10px 12px;
-      border-radius: 12px;
-      border:1px solid var(--line);
-      background:#fff;
-      box-shadow: var(--shadow2);
-    }
-    .legal{color:var(--muted); font-size:14px}
-    .legal a{color:var(--muted); text-decoration: underline; text-underline-offset: 3px; text-decoration-color: rgba(92,107,130,.35)}
-
-    /* Responsive */
-    @media (max-width: 980px){
-      .wrap{grid-template-columns: 1fr}
-      .search{min-width: 0; flex:1}
-    }
-    @media (max-width: 720px){
-      .menu{display:none}
-    }
-  </style>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#1f1713;line-height:1.7;background: radial-gradient(circle at 18% 12%, rgba(255, 235, 211, .32), transparent 25%), radial-gradient(circle at 80% 35%, rgba(175, 75, 14, .22), transparent 28%), linear-gradient(135deg, #8f6d5d, #b09082 48%, #8f6d5d);background-attachment:fixed;overflow-x:hidden}body:before{content:"";position:fixed;inset:0;z-index:-1;background-image:linear-gradient(45deg,rgba(255,255,255,.035) 25%,transparent 25%),linear-gradient(-45deg,rgba(255,255,255,.035) 25%,transparent 25%);background-size:6px 6px;opacity:.7}a{color:#b84d0b;text-decoration:none;font-weight:700}a:hover{text-decoration:underline}.hk-page{width:min(720px,calc(100% - 28px));margin:34px auto 70px}.hk-card{background:#eee6db;border:1px solid rgba(95,64,48,.22);margin-bottom:26px;overflow:hidden}.hk-profile-cover{height:150px;position:relative;overflow:hidden;background:#d8c5b8}.hk-profile-cover img{width:100%;height:100%;object-fit:cover;display:block;filter:contrast(1.02) saturate(1.05)}.hk-profile-cover:after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.05),rgba(0,0,0,.18));pointer-events:none}.hk-avatar{width:112px;height:112px;border:5px solid #eee6db;background:#fff;margin:-58px 0 0 38px;position:relative;z-index:2;overflow:hidden;border-radius:50%}.hk-avatar img{width:100%;height:100%;object-fit:cover;display:block}.hk-profile-body{padding:18px 38px 34px}.hk-title{font-size:31px;line-height:1.1;margin:0;color:#050505;letter-spacing:-1px}.hk-meta{font-size:14px;line-height:1.5;color:#2d211b;margin:4px 0 16px}.hk-desc{margin:0 0 22px;font-size:12px;color:#16110e}.hk-section{padding:32px 40px}.hk-section h2{font-size:19px;margin:0 0 18px;color:#070707}.hk-link{display:grid;grid-template-columns:190px 1fr;gap:24px;padding:0 0 18px;margin-bottom:18px;border-bottom:1px solid rgba(85,65,54,.18)}.hk-link:last-child{border-bottom:0;margin-bottom:0;padding-bottom:0}.hk-link-img{height:110px;background:#ddd;overflow:hidden}.hk-link-img img{width:100%;height:100%;object-fit:cover;display:block}.hk-link-info h3{font-size:15px;margin:8px 0 6px}.hk-link-info p{font-size:14px;margin:0;color:#3f332c}.hk-gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.hk-gallery img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block}.hk-article{padding:34px 40px}.hk-article h1{font-size:26px;line-height:1.25;margin:0 0 16px;color:#080808}.hk-article h2{font-size:20px;margin:26px 0 10px}.hk-article p{margin:0 0 15px;color:#2b211c}.hk-article blockquote{margin:20px 0;padding:14px 18px;border-left:5px solid #b84d0b;background:#f8f1e9;color:#4d3526}.hk-archive{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.hk-year{background:#f8f1e9;border:1px solid rgba(85,65,54,.16);padding:14px;text-align:center}.hk-year strong{display:block;font-size:20px;color:#b84d0b}.hk-tags{display:flex;gap:9px;flex-wrap:wrap}.hk-tags span,.hk-share,.hk-related-wrap{background:#f8f1e9;border:1px solid rgba(85,65,54,.16)}.hk-tags span{padding:7px 11px;font-size:13px}.hk-footer{text-align:center;color:#fff8f1;font-size:14px;padding:0 18px 40px}.hk-footer a{color:#fff}.hk-share-wrap{margin-top:22px;display:grid;grid-template-columns:repeat(2,1fr);gap:9px}.hk-share-title{grid-column:1/-1;font-size:13px;font-weight:700;color:#5d463a;margin-bottom:2px}.hk-share{display:flex;align-items:center;justify-content:center;min-height:38px;color:#9a3d08;font-size:13px;font-weight:700;text-align:center}.hk-share:hover{text-decoration:none;background:#fff8f1}.hk-share.fb{color:#1877f2}.hk-share.x{color:#111}.hk-share.wa{color:#128c7e}.hk-share.in{color:#0a66c2}.hk-share.rd{color:#ff4500}.hk-share.tg{color:#229ed9}.hk-related h2{font-size:20px;margin:0 0 18px;color:#111}.hk-related-wrap{padding:18px}.hk-related-links{margin:0;padding-left:18px;columns:2;column-gap:30px}.hk-related-links li{margin:0 0 10px;break-inside:avoid}.hk-related-links a{color:#9f3f08;font-weight:700}.hk-related-links a:hover{text-decoration:underline}@media(max-width:640px){.hk-page{width:min(100% - 20px,720px);margin-top:18px}.hk-profile-cover{height:120px}.hk-avatar{margin-left:22px}.hk-profile-body,.hk-section,.hk-article{padding-left:24px;padding-right:24px}.hk-link{grid-template-columns:1fr;gap:12px}.hk-link-img{height:150px}.hk-gallery,.hk-archive{grid-template-columns:repeat(2,1fr)}.hk-related-links{columns:1}}@media(max-width:480px){.hk-share-wrap{grid-template-columns:1fr}}
+</style>
 </head>
 
 <body>
-  <a class="skip" href="#content">ข้ามไปยังเนื้อหา</a>
+<main class="hk-page">
 
-  <!-- Top header -->
-  <header class="top" role="banner">
-    <div class="container top-inner">
-      <div>
-        <h1 class="blog-title">ThailandData Store</h1>
-        <div class="blog-tag">บล็อกสไตล์ Blogger 2.0 • รวมลิงก์ข้อมูล • เรียบง่าย • GitHub-ready</div>
-      </div>
+<section class="hk-card hk-profile">
+<div class="hk-profile-cover"> 
+  <img src="cv.jpg" alt="Social Distortion Cover"> 
+</div> 
+  <div class="hk-avatar"> 
+    <img src="cv1.jpg" alt="Social Distortion Profile"> 
+  </div> 
+  <div class="hk-profile-body"> 
+    <h1 class="hk-title">Social Distortion Magazine</h1> 
+    <div class="hk-meta"> 
+      Perjalanan Band Punk Rock Amerika<br> 
+      California Punk, Rockabilly, dan Underground Culture<br> 
+      Arsip Musik, Album, dan Sejarah Social Distortion 
+    </div> 
+    <p class="hk-desc"> <a href="https://thailanddata.store/"><strong>Social Distortion</strong></a> dikenal sebagai salah satu band punk rock paling berpengaruh dari California yang berhasil menggabungkan nuansa punk, rockabilly, blues, dan alternative rock menjadi karakter musik yang unik dan mudah dikenali. Halaman ini disusun sebagai majalah digital sederhana yang membahas perjalanan Social Distortion dari awal kemunculan hingga menjadi ikon penting dalam sejarah musik underground Amerika. Dengan tampilan modern, ringan, dan responsif, pembaca dapat menikmati artikel, profil singkat, serta berbagai catatan menarik mengenai perjalanan karier Mike Ness dan Social Distortion melalui berbagai perangkat. </p>
 
-      <!-- Top actions (link yang wajib tetap, jangan hilangkan) -->
-      <div class="top-actions" aria-label="Top external links">
-        <a href="https://pafiairseruk.org/" target="_blank" rel="noopener noreferrer">Data HK</a>
-        <a href="https://pafitanglad.org/" target="_blank" rel="noopener noreferrer">Data SDY</a>
-        <a href="https://myfilerecovery.net/" target="_blank" rel="noopener noreferrer">Data SGP</a>
-        <a href="https://datahklotto.us/" target="_blank" rel="noopener noreferrer">HK Lotto</a>
-        <a href="https://pafiprayabaratdaya.org/" target="_blank" rel="noopener noreferrer">SDY Lotto</a>
-        <a href="https://pafiprayatimur.org/" target="_blank" rel="noopener noreferrer">SDY Lotto</a>
-      </div>
-    </div>
-  </header>
+<div class="hk-share-wrap">
+  <span class="hk-share-title">Bagikan halaman:</span>
 
-  <!-- Blogger-like navbar -->
-  <div class="bar" role="navigation" aria-label="Site navigation">
-    <div class="container bar-inner">
-      <div class="menu">
-        <a href="#content">หน้าแรก</a>
-        <a href="#post-guide">บทความ</a>
-        <a href="#post-directory">ลิงก์ทั้งหมด</a>
-        <a href="#post-cta">ทางออกหลัก</a>
-      </div>
+  <a class="hk-share x" href="https://twitter.com/intent/tweet?url=https://chinadata.store/&text=Data%20HK%20-%20Rekap%20Keluaran%20Hongkong%20Pools%20Terbaru" target="_blank" rel="noopener noreferrer">X</a>
 
-      <div class="search" aria-label="Search (visual only)">
-        <span class="hint">🔎</span>
-        <input type="search" placeholder="ค้นหาในหน้านี้ (ตัวอย่าง UI)" aria-label="Search input" />
-      </div>
-    </div>
-  </div>
+  <a class="hk-share in" href="https://www.linkedin.com/sharing/share-offsite/?url=https://chinadata.store/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 
-  <main id="content" class="container">
-    <div class="wrap">
-      <!-- POSTS -->
-      <section aria-label="Posts">
-        <!-- Post 1 -->
-        <article class="post" id="post-guide">
-          <div class="post-head">
-            <h2 class="post-title">แนวทางจัดทำหน้า Directory ให้ดูเหมือนบล็อก</h2>
-            <div class="meta">
-              <span class="tag">📝 บทความ</span>
-              <span class="tag">⚡ โหลดเร็ว</span>
-              <span class="tag">📌 GitHub Pages</span>
-            </div>
-          </div>
-          <div class="post-body">
-            <p>
-              รูปแบบ “Blogger 2.0” จะเน้นการอ่านเหมือนโพสต์: มีหัวข้อ, เวลา/แท็ก, และแถบด้านข้าง (sidebar)
-              วิธีนี้ช่วยให้หน้า “รวมลิงก์” ดูเป็นธรรมชาติ ไม่แข็งเหมือนหน้ารายการล้วน ๆ
-            </p>
-            <p>
-              หากต้องอ้างอิงลิงก์ในเนื้อหา ให้แทรกในประโยคที่เกี่ยวข้อง เช่น
-              <a href="https://lamarsalaplayadegandia.com/" target="_blank" rel="noopener noreferrer">Data HK</a>
-              เพื่อทำให้การเชื่อมโยงดูมีเหตุผลและอ่านลื่น
-            </p>
-            <p>
-              ส่วน “ลิงก์ทั้งหมด” ควรทำเป็นโพสต์แยก (เหมือน Archive) และมีทางลัดใน Sidebar เพื่อเข้าถึงเร็ว
-            </p>
+  <a class="hk-share rd" href="https://www.reddit.com/submit?url=https://chinadata.store/&title=Data%20HK%20-%20Rekap%20Keluaran%20Hongkong%20Pools%20Terbaru" target="_blank" rel="noopener noreferrer">Reddit</a>
 
-            <div class="callout">
-              <div>
-                <strong>ทิปส์สั้น ๆ</strong><br>
-                <span style="color:var(--muted);font-size:14px">แยก: โพสต์แนวทาง • โพสต์ลิงก์ทั้งหมด • โพสต์ CTA</span>
-              </div>
-              <a class="btn" href="#post-directory">ไปยังโพสต์ลิงก์ทั้งหมด</a>
-            </div>
-          </div>
-        </article>
+  <a class="hk-share tg" href="https://t.me/share/url?url=https://chinadata.store/&text=Data%20HK%20-%20Rekap%20Keluaran%20Hongkong%20Pools%20Terbaru" target="_blank" rel="noopener noreferrer">Telegram</a>
+</div>
+</section>
 
-        <!-- Post 2: Directory -->
-        <article class="post" id="post-directory" style="margin-top:14px">
-          <div class="post-head">
-            <h2 class="post-title">Archive: รายการลิงก์ทั้งหมด (คงเดิม)</h2>
-            <div class="meta">
-              <span class="tag">📚 Archive</span>
-              <span class="tag">🔗 External</span>
-              <span class="tag">✅ คงลิงก์เดิม</span>
-            </div>
-          </div>
-          <div class="post-body">
-            <p>
-              รายการนี้รวบรวมลิงก์ภายนอกทั้งหมดแบบครบถ้วน (ไม่มีการลบหรือเปลี่ยน)
-              จัดรูปแบบเหมือน “โพสต์รวมลิงก์” เพื่อให้อ่านง่ายและคลิกสะดวก
-            </p>
+<section class="hk-card hk-section">
+<div class="hk-gallery">
+<img src="1.jpg" alt="Galeri avril 1">
+<img src="2.jpg" alt="Galeri avril 2">
+<img src="3.jpg" alt="Galeri avril 3">
+<img src="4.jpg" alt="Galeri avril 4">
+</div>
+</section>
 
-           <ul>
-<li><a href="https://airport-parking-quote.co.uk/" target="_blank" rel="noopener">Travel Parking Guide</a></li>
-<li><a href="https://beyondtrends.store/" target="_blank" rel="noopener">Modern Style Hub</a></li>
-<li><a href="https://cave222.org/" target="_blank" rel="noopener">Creative Cave Space</a></li>
-<li><a href="https://digitalgoodies.store/" target="_blank" rel="noopener">Online Resource Center</a></li>
-<li><a href="https://elvvaws.org/" target="_blank" rel="noopener">Community Insight Portal</a></li>
-<li><a href="https://expressthoughts.site/" target="_blank" rel="noopener">Daily Thought Journal</a></li>
-<li><a href="https://feltribute.xyz/" target="_blank" rel="noopener">Tribute Collection</a></li>
-<li><a href="https://flakey.info/" target="_blank" rel="noopener">Random Notes Archive</a></li>
-<li><a href="https://football-livescore.co.uk/" target="_blank" rel="noopener">Match Update Center</a></li>
-<li><a href="https://freeflowingthoughts.site/" target="_blank" rel="noopener">Open Mind Stories</a></li>
-<li><a href="https://genericlevitra-buy.info/" target="_blank" rel="noopener">Health Reference Info</a></li>
-<li><a href="https://healthyvoices.org/" target="_blank" rel="noopener">Healthy Voices Media</a></li>
-<li><a href="https://jobseek.us/" target="_blank" rel="noopener">Career Opportunity Board</a></li>
-<li><a href="https://juicylucyinfo.co.uk/" target="_blank" rel="noopener">Food & Lifestyle UK</a></li>
-<li><a href="https://katanaownersclub.co.uk/" target="_blank" rel="noopener">Motorcycle Enthusiast Club</a></li>
-<li><a href="https://kolkataescortsxx.info/" target="_blank" rel="noopener">Kolkata Urban Notes</a></li>
-<li><a href="https://laotzu.store/" target="_blank" rel="noopener">Eastern Philosophy Store</a></li>
-<li><a href="https://lifestylepulse.site/" target="_blank" rel="noopener">Lifestyle Pulse Daily</a></li>
-<li><a href="https://longchampbags.uk/" target="_blank" rel="noopener">Fashion Collection UK</a></li>
-<li><a href="https://machynllethgolfclub.co.uk/" target="_blank" rel="noopener">Golf Community Hub</a></li>
-<li><a href="https://mailstorm.biz/" target="_blank" rel="noopener">MailStorm Network</a></li>
-<li><a href="https://masjidmekarindah.id/" target="_blank" rel="noopener">Masjid Mekar Indah Official</a></li>
-<li><a href="https://michaels-kors.co.uk/" target="_blank" rel="noopener">Luxury Fashion Outlet</a></li>
-<li><a href="https://middlefieldma.us/" target="_blank" rel="noopener">Middlefield Community</a></li>
-<li><a href="https://musclesteroids.info/" target="_blank" rel="noopener">Fitness Knowledge Base</a></li>
-<li><a href="https://mypet24.co.uk/" target="_blank" rel="noopener">Pet Care Support</a></li>
-<li><a href="https://portpatrick-brewery.co.uk/" target="_blank" rel="noopener">Brewery & Craft Drinks</a></li>
-<li><a href="https://racingshares.co.uk/" target="_blank" rel="noopener">Racing Share Updates</a></li>
-<li><a href="https://replicamarket.co.uk/" target="_blank" rel="noopener">Collector Market UK</a></li>
-<li><a href="https://scriblerian.net/" target="_blank" rel="noopener">Academic Writing Space</a></li>
-<li><a href="https://shanbehzadeh.art/" target="_blank" rel="noopener">Art & Creative Gallery</a></li>
-<li><a href="https://seafishnottingham.co.uk/" target="_blank" rel="noopener">Seafood Nottingham</a></li>
-<li><a href="https://smallde.com/" target="_blank" rel="noopener">SmallDE Online</a></li>
-<li><a href="https://sobattogel.store/" target="_blank" rel="noopener">Angka Komunitas</a></li>
-<li><a href="https://togelonline.space/" target="_blank" rel="noopener">Pasaran Digital Hub</a></li>
-<li><a href="https://ubbgloucestershire.org/" target="_blank" rel="noopener">Gloucestershire Community</a></li>
-<li><a href="https://unitedforcharitableassistance.org/" target="_blank" rel="noopener">Charitable Assistance Network</a></li>
-<li><a href="https://webmaster-cs.xyz/" target="_blank" rel="noopener">Webmaster Creative Studio</a></li>
-<li><a href="https://webprediksibola.id/" target="_blank" rel="noopener">Analisa Bola Hari Ini</a></li>
-<li><a href="https://youth-diplomacy.org/" target="_blank" rel="noopener">Youth Diplomacy Forum</a></li>
-<li><a href="https://wsdata.store/" target="_blank" rel="noopener">WS Data Center</a></li>
-<li><a href="https://tgdata.store/" target="_blank" rel="noopener">TG Data Network</a></li>
-<li><a href="https://latestdata.store/" target="_blank" rel="noopener">Latest Data Source</a></li>
-<li><a href="https://emailsmarketing.store/" target="_blank" rel="noopener">Marketing Resource Hub</a></li>
-<li><a href="https://officedata.store/" target="_blank" rel="noopener">Office Resource Database</a></li>
-<li><a href="https://buydatabase.store/" target="_blank" rel="noopener">Digital Resource Market</a></li>
-<li><a href="https://koreadata.store/" target="_blank" rel="noopener">Korea Information Hub</a></li>
-<li><a href="https://bankdata.store/" target="_blank" rel="noopener">Financial Data Network</a></li>
-<li><a href="https://indonesiadata.store/" target="_blank" rel="noopener">Indonesia Resource Center</a></li>
-<li><a href="https://thailanddata.store/" target="_blank" rel="noopener">Thailand Information Hub</a></li>
-<li><a href="https://chinadata.store/" target="_blank" rel="noopener">China Insight Archive</a></li>
-<li><a href="https://lastdata.store/" target="_blank" rel="noopener">Last Data Collection</a></li>
-<li><a href="https://indiadata.store/" target="_blank" rel="noopener">India Resource Library</a></li>
-<li><a href="https://saledatabase.store/" target="_blank" rel="noopener">Sales Resource Platform</a></li>
-<li><a href="https://selldatabase.store/" target="_blank" rel="noopener">Business Leads Center</a></li>
-<li><a href="https://leadsale.store/" target="_blank" rel="noopener">Lead Generation Media</a></li>
-<li><a href="https://malaysiadata.store/" target="_blank" rel="noopener">Malaysia Resource Hub</a></li>
-<li><a href="https://telemarketingleads.store/" target="_blank" rel="noopener">Telemarketing Insights</a></li>
-<li><a href="https://insurancesdata.store/" target="_blank" rel="noopener">Insurance Information Center</a></li>
-<li><a href="https://b2cdata.store/" target="_blank" rel="noopener">B2C Resource Platform</a></li>
-<li><a href="https://livedrawchina.space/" target="_blank" rel="noopener">China Result Update</a></li>
-<li><a href="https://livedrawsgp4d.art/" target="_blank" rel="noopener">Singapore 4D Result Board</a></li>
-<li><a href="https://livedrawcambodia4d.art/" target="_blank" rel="noopener">Cambodia 4D Update</a></li>
-<li><a href="https://livedrawsgp9.shop/" target="_blank" rel="noopener">Singapore Number Update</a></li>
-<li><a href="https://garyhughes.org/" target="_blank" rel="noopener">Gary Hughes Official</a></li>
-<li><a href="https://prediksijituhk.shop/" target="_blank" rel="noopener">HK Number Reference</a></li>
-<li><a href="https://fiscalidadinternacional.org/" target="_blank" rel="noopener">International Fiscal Studies</a></li>
-<li><a href="https://paitowarnasgp.ink/" target="_blank" rel="noopener">Singapore Color Chart</a></li>
-<li><a href="https://metanerus.net/" target="_blank" rel="noopener">Number Art Space</a></li>
-<li><a href="https://prediksisdypools.net/" target="_blank" rel="noopener">Sydney Number Guide</a></li>
-<li><a href="https://cvdwitunggalabadi.com/" target="_blank" rel="noopener">CVDW Tunggal Abadi</a></li>
-<li><a href="https://lunwenchachongjiance.com/" target="_blank" rel="noopener">Academic Research Service</a></li>
-<li><a href="https://paitolengkap.org/" target="_blank" rel="noopener">Complete Chart Archive</a></li>
-<li><a href="https://pharmacielegend.shop/" target="_blank" rel="noopener">Pharmacy Legend Store</a></li>
-<li><a href="https://replicanow.shop/" target="_blank" rel="noopener">Replica Now Collection</a></li>
-<li><a href="https://sdchaye.com/" target="_blank" rel="noopener">SD Chaye Official</a></li>
-<li><a href="https://voertuiggegevens.net/" target="_blank" rel="noopener">Vehicle Information Center</a></li>
-<li><a href="https://datakeluaranhk.mom/" target="_blank" rel="noopener">Data HK</a></li>
-              <li><a href="https://diajengwitri.id/" target="_blank" rel="noopener">Diajeng</a></li>
-              <li><a href="https://barbourinternationaljackets.store/" target="_blank" rel="noopener">Data HK</a></li>
-              <li><a href="https://beliyspisok.site/" target="_blank" rel="noopener">Paito HK</a></li>
-              <li><a href="https://climbr.store/" target="_blank" rel="noopener">Paito Warna HK</a></li>
-              <li><a href="https://achbank.store/" target="_blank" rel="noopener">Paito Warna HK</a></li>
-              <li><a href="https://acheterderoxat.space/" target="_blank" rel="noopener">Paito Warna HK</a></li>
-              <li><a href="https://ctupka.store/" target="_blank" rel="noopener">Paito Warna HK</a></li>
-              <li><a href="https://filedownloadsitereank.store/" target="_blank" rel="noopener">Paito Warna HK</a></li>
-              <li><a href="https://freya-subb-etalon.space/" target="_blank" rel="noopener">Paito Warna HK</a></li>
-              <li><a href="https://khachatrian.space/" target="_blank" rel="noopener">Paito Warna HK</a></li>
-              <li><a href="https://parakram.store/" target="_blank" rel="noopener">Paito Warna HK</a></li>
-              <li><a href="https://pharmaciecotedivoire.space/" target="_blank" rel="noopener">Paito Warna HK</a></li>
-              <li><a href="https://retinaonlinebuy.store/" target="_blank" rel="noopener">Paito Warna HK</a></li>
-              <li><a href="https://techboole.store/" target="_blank" rel="noopener">Paito Warna HK</a></li>
-               <li><a href="https://thietkeweb.space/" target="_blank" rel="noopener">Paito Warna HK</a></li>
-              <li><a href="https://unitypga.store/" target="_blank" rel="noopener">Paito Warna HK</a></li>
-              <li><a href="https://etilalkol.space/" target="_blank" rel="noopener">Paito Warna HK</a></li>
-              <li><a href="https://angkakeramat1.blogspot.com/" target="_blank" rel="noopener">Angka Keramat</a></li>
-              <li><a href="https://gravatar.com/pikavepika" target="_blank" rel="noopener">Data HK</a></li>
-              <li><a href="https://data-hk-lotto-c9f99b.webflow.io/" target="_blank" rel="noopener">Data HK Lotto</a></li>
-              <li><a href="https://sites.google.com/view/datrinbilly/beranda" target="_blank" rel="noopener">Data HK</a></li>
-              <li><a href="https://isakoofficial01-oss.github.io/kajian-budaya-populer/" target="_blank" rel="noopener">Kajian Budaya</a></li>
-              <li><a href="https://datasdylotto.github.io/pikavepika/" target="_blank" rel="noopener">Data HK</a></li>
-              <li><a href="https://rentry.co/59481-ewing-elizabeth-1971-fashion-in-underwear" target="_blank" rel="noopener">Paito HK</a></li>
-            </ul>
-          </div>
-        </article>
+<article class="hk-card hk-article" id="artikel">
 
-        <!-- Post 3: CTA -->
-        <article class="post" id="post-cta" style="margin-top:14px">
-          <div class="post-head">
-            <h2 class="post-title">ทางออกหลัก (CTA) สำหรับผู้ใช้งาน</h2>
-            <div class="meta">
-              <span class="tag">🚀 CTA</span>
-              <span class="tag">🧭 ทางลัด</span>
-              <span class="tag">🔒 rel="noopener"</span>
-            </div>
-          </div>
-          <div class="post-body">
-            <p>
-              เพื่อความชัดเจนแบบบล็อก ให้มีโพสต์ “ทางออกหลัก” แยกต่างหาก
-              ผู้ใช้จะเข้าใจว่าปุ่มนี้คือจุดไปปลายทางสำคัญที่สุดของหน้า
-            </p>
+<h1>Social Distortion Magazine | Perjalanan Band Punk Rock Legendaris</h1>
 
-            <div class="callout">
-              <div>
-                <strong>Paito SDY</strong><br>
-                <span style="color:var(--muted);font-size:14px">คลิกเพื่อเข้าหน้าปลายทาง</span>
-              </div>
-              <a class="btn" href="http://178.128.215.158/paito-sdy-data-paito-warna-sydney-pools-terbaru/" target="_blank" rel="noopener noreferrer">
-                เปิด Paito SDY
-              </a>
-            </div>
-          </div>
-        </article>
-      </section>
+<p>
+<strong>Social Distortion</strong> dikenal sebagai salah satu band punk rock paling berpengaruh dalam sejarah musik alternative Amerika. Dengan karakter musik yang memadukan punk rock, rockabilly, dan southern rock, band ini berhasil membangun identitas kuat yang tetap dikenang oleh penggemar musik hingga sekarang.
+</p>
 
-      <!-- SIDEBAR -->
-      <aside aria-label="Sidebar">
-        <div class="widget">
-          <h3>ทางลัด <small>Quick Links</small></h3>
-          <div class="quick-links">
-            <a href="#post-guide">อ่านบทความ <span>Guide</span></a>
-            <a href="#post-directory">ลิงก์ทั้งหมด <span>Archive</span></a>
-            <a href="#post-cta">ทางออกหลัก <span>CTA</span></a>
-          </div>
-        </div>
+<p>
+Halaman ini disusun sebagai artikel majalah digital yang membahas perjalanan panjang Social Distortion sejak awal kemunculannya di skena underground California hingga menjadi salah satu ikon punk rock dunia. Dengan tampilan modern, ringan, dan nyaman dibaca, pembaca dapat menikmati cerita perjalanan musik, perkembangan album, dan pengaruh besar band ini terhadap budaya punk modern.
+</p>
 
-        <div class="widget">
-          <h3>ลิงก์หน่วยงาน/บริการ (คงเดิม) <small>Top</small></h3>
-          <div class="quick-links">
+<blockquote>
+Artikel ini disusun sebagai bagian dari majalah digital hiburan yang membahas sejarah musik punk rock, perkembangan band alternative legendaris, serta budaya musik independen dari masa ke masa.
+</blockquote>
 
-          </div>
-        </div>
+<h2>Awal Kemunculan Social Distortion</h2>
 
-        <div class="widget">
-          <h3>Footer Links (คงเดิม) <small>Links</small></h3>
-          <div class="quick-links">
+<p>
+Social Distortion dibentuk pada akhir tahun 1970-an di California dan mulai dikenal melalui energi musik yang keras, jujur, serta penuh semangat pemberontakan khas budaya punk rock. Di tengah berkembangnya skena underground Amerika saat itu, Social Distortion berhasil menarik perhatian karena memiliki warna musik yang berbeda dibanding banyak band punk lain.
+</p>
 
-          </div>
-        </div>
+<p>
+Karakter musik mereka tidak hanya mengandalkan tempo cepat dan gitar distorsi, tetapi juga menghadirkan nuansa emosional yang kuat melalui lirik tentang kehidupan jalanan, perjuangan pribadi, kebebasan, dan realita kehidupan sosial.
+</p>
 
-        <div class="widget">
-          <h3>หมายเหตุ <small>Note</small></h3>
-          <p style="margin:0;color:var(--muted)">
-            ตัวอย่างนี้จำลอง “โครง Blogger” (โพสต์ + Sidebar) เพื่อให้หน้าดูมีชีวิต
-            และสามารถต่อยอดทำหลายโพสต์ได้ในอนาคต
-          </p>
-        </div>
-      </aside>
-    </div>
+<p>
+Sosok Mike Ness sebagai vokalis utama menjadi salah satu identitas penting dalam perjalanan band ini. Suara khas, gaya sederhana, dan penulisan lirik yang jujur membuat Social Distortion memiliki hubungan kuat dengan para penggemarnya selama puluhan tahun.
+</p>
 
-    <footer class="footer" role="contentinfo">
-      <div class="container footer-grid">
-        <div class="widget" style="margin:0; box-shadow:none">
-          <strong>ThailandData Store</strong>
-          <p style="margin:6px 0 0; color:var(--muted); font-size:14px">
-            หน้าแบบบล็อก (Blogger 2.0) สำหรับโดเมน thailanddata.store พร้อมลิงก์อ้างอิงที่คงเดิม เช่น
-            <a href="https://pafisemarapuraklod.org/" target="_blank" rel="noopener noreferrer">Prediksi SDY</a>
-          </p>
-        </div>
+<h2>Perjalanan Album dan Popularitas</h2>
 
-        <div class="footer-links" aria-label="Footer external links">
-          <!-- อย่าลบ/อย่าเปลี่ยนลิงก์ -->
-       <ul class="verticalt-menu">
-<li><a href="https://prediksisydney.store/" target="_blank" rel="noopener noreferrer">Prediksi SDY Hari ini</a></li>
-<li><a href="https://data-hongkong.site/" target="_blank" rel="noopener noreferrer">Data Hongkong 2026</a></li>
-<li><a href="https://data-hk.site" target="_blank" rel="noopener noreferrer">Data HK 2026</a></li>
-<li><a href="https://datasdypools.com/" target="_blank" rel="noopener noreferrer">Data SDY 2026</a></li>
-<li><a href="https://datasydneylotto.website/" target="_blank" rel="noopener noreferrer">Data SDY Lotto</a></li>
-<li><a href="https://datasdylotto1.site/" target="_blank" rel="noopener noreferrer">Data SDY Lotto Hari ini</a></li>
-<li><a href="https://prediksijitu.website/" target="_blank" rel="noopener noreferrer">Prediksi Jitu</a></li>
-<li><a href="https://livedrawsdy2.site/" target="_blank" rel="noopener noreferrer">Live Draw SDY</a></li>
-<li><a href="https://livedrawhk2.site/" target="_blank" rel="noopener noreferrer">Live Draw HK</a></li>
-<li><a href="https://paitohk2.site/" target="_blank" rel="noopener noreferrer">Paito HK</a></li>
-<li><a href="https://paitosdy1.site/" target="_blank" rel="noopener noreferrer">Paito SDY</a></li>
-<li><a href="https://1datahk.site/" target="_blank" rel="noopener noreferrer">Data HK</a></li>
-<li><a href="https://datahklotto.space/" target="_blank" rel="noopener noreferrer">Data HK Lotto</a></li>
-<li><a href="https://www.datasdylotto.space" target="_blank" rel="noopener noreferrer">Data SDY Lotto</a></li>
-<li><a href="https://1angkanet.site/" target="_blank" rel="noopener noreferrer">Angkanet</a></li>
+<p>
+Perjalanan panjang Social Distortion dipenuhi dengan berbagai album yang berhasil menjadi bagian penting dalam sejarah punk rock modern. Musik mereka berkembang dari nuansa hardcore punk menjadi perpaduan unik antara punk klasik, rockabilly, dan alternative rock.
+</p>
+
+<p>
+Beberapa lagu mereka dikenal luas karena memiliki energi yang kuat sekaligus emosional. Hal tersebut membuat Social Distortion tidak hanya dicintai oleh penggemar punk rock lama, tetapi juga generasi baru yang mulai mengenal musik alternative modern.
+</p>
+
+<p>
+Walaupun berasal dari skena underground, Social Distortion berhasil mempertahankan identitas independen mereka tanpa kehilangan karakter utama yang membuat band ini dikenal sejak awal kemunculannya.
+</p>
+
+<h2>Pengaruh dalam Budaya Punk Rock Modern</h2>
+
+<p>
+Social Distortion memiliki pengaruh besar terhadap perkembangan musik punk rock dan alternative rock dunia. Banyak band generasi baru mengakui bahwa gaya musik dan karakter Social Distortion menjadi salah satu inspirasi penting dalam perjalanan musik mereka.
+</p>
+
+<p>
+Selain dikenal melalui musik, Social Distortion juga identik dengan budaya jalanan Amerika, gaya biker rock, dan nuansa rock klasik yang tetap terasa kuat dalam setiap penampilan mereka. Hal tersebut membuat band ini memiliki identitas visual yang sangat khas dan mudah dikenali.
+</p>
+
+<p>
+Hingga sekarang, Social Distortion tetap dianggap sebagai salah satu band legendaris yang berhasil mempertahankan eksistensi dan karakter musiknya di tengah perubahan tren industri musik dunia.
+</p>
+
+<p>
+Sebagai penutup, perjalanan Social Distortion bukan hanya tentang musik keras atau budaya punk semata, tetapi juga tentang bagaimana sebuah band mampu bertahan selama puluhan tahun dengan identitas yang jujur, kuat, dan tetap dekat dengan para penggemarnya.
+</p>
+
+
+<ul class="hk-links">
+  <li><a href="https://medium.com/@seopools01" target="_blank" rel="noopener noreferrer">Data Hongkong Pools</a></li>
+  <li><a href="https://www.tumblr.com/blog/datahk2026" target="_blank" rel="noopener noreferrer">Data HK 2026 Lengkap</a></li>
+  <li><a href="https://about.me/datahkg" target="_blank" rel="noopener noreferrer">Data HK</a></li>
+  <li><a href="https://datahongkong6.wordpress.com/" target="_blank" rel="noopener noreferrer">Data Hongkong</a></li>
+  <li><a href="https://datahk2026.github.io/data-hk-2026-terbaru/" target="_blank" rel="noopener noreferrer">Data HK 2026</a></li>
+  <li><a href="https://livedrawhk328975.blogspot.com/" target="_blank" rel="noopener noreferrer">Data HK Pools</a></li>
 </ul>
-        </div>
+</article>
+  
+</article>
+  
+<section class="hk-card hk-section" id="arsip">
+<h3>Perjalanan Band</h3>
 
-        <div class="legal">
-          <div><a href="/privacy.html">Privacy Policy</a> (buat file jika diperlukan)</div>
-          <div>© <span id="y"></span> thailanddata.store</div>
-        </div>
-      </div>
-    </footer>
-  </main>
+<div class="hk-archive">
 
-  <script>
-    const y = new Date().getFullYear();
-    document.getElementById('y').textContent = y;
-  </script>
+<div class="hk-year">
+<strong>1978</strong>
+<span>Awal Social Distortion</span>
+</div>
+
+<div class="hk-year">
+<strong>1983</strong>
+<span>Mommy's Little Monster</span>
+</div>
+
+<div class="hk-year">
+<strong>1990</strong>
+<span>Era Mainstream Punk Rock</span>
+</div>
+
+<div class="hk-year">
+<strong>2026</strong>
+<span>Legacy Punk Modern</span>
+</div>
+
+</div>
+</section>
+
+<section class="hk-card hk-section">
+<h4>Punk Rock & Alternative Culture</h4>
+
+<div class="hk-tags">
+<span>Social Distortion</span>
+<span>Punk Rock</span>
+<span>Alternative Rock</span>
+<span>Mike Ness</span>
+<span>Rockabilly</span>
+<span>Music Magazine</span>
+</div>
+</section>
+
+</main>
+
+<footer class="hk-footer">
+<p>© 2026 Social Distortion Magazine. All Rights Reserved.</p>
+<p><a href="#">Kembali ke atas</a></p>
+</footer>
+
 </body>
 </html>
